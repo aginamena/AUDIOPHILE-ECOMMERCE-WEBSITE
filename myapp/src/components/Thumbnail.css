@@ -1,0 +1,51 @@
+.homepageThumbnail .image {
+  position: absolute;
+  top: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.homepageThumbnail {
+  background: #f2f2f2;
+  width: 350px;
+  height: 284px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+}
+.homepageThumbnail span:hover {
+  color: #d87d4a;
+  text-decoration: none;
+}
+.homepageThumbnail span {
+  cursor: pointer;
+  color: black;
+}
+.homepageBodyThumbnailName {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+}
+@media (max-width: 768px) {
+  .homepageThumbnail .image,
+  .homepageBodyThumbnailName,
+  .homepageBodyShop {
+    position: static;
+    transform: none;
+    top: unset;
+    left: unset;
+  }
+}
+@media (max-width: 500px) {
+  .homepageThumbnail .image {
+    width: 200px;
+    height: 200px;
+  }
+  .homepageThumbnail {
+    width: 90%;
+  }
+}

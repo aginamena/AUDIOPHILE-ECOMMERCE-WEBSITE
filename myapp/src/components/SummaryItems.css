@@ -1,0 +1,33 @@
+.summaryItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.summaryItem .summary-img {
+  height: 64px;
+  border-radius: 10px;
+  margin-right: 16px;
+}
+.summaryItem .summary-name {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+}
+.summaryItem .summary-amount {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.summaryItem .summary-quantity {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.summaryItem:hover {
+  border: 1px solid black;
+}

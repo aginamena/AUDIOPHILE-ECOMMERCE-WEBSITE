@@ -1,0 +1,111 @@
+#thank-you {
+  padding: 48px;
+  background-color: white;
+  border-radius: 10px;
+  width: 540px;
+  /* this element is positioned relative to checkout div */
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+}
+
+#thank-you #grand-total-checkout {
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+#thank-you #con1 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+  padding: 32px;
+}
+#thank-you #con0 {
+  width: 100%;
+  padding: 32px;
+  background-color: #f1f1f1;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#con1 #grand-amount {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+#thank-you-order {
+  display: flex;
+  height: 180px;
+}
+#remaining-items {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border-top: 1px solid gray;
+  padding-top: 12px;
+  text-align: center;
+}
+#email-confirm-msg {
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 24px auto 33px auto;
+}
+#thank-you button {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  width: 100%;
+  background-color: #d87d4a;
+  height: 48px;
+  border: 0;
+  margin-top: 46px;
+}
+#thank-you button:hover {
+  background-color: #fbaf85;
+}
+#thank-you h3 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  margin-top: 33px;
+}
+
+@media (max-width: 576px) {
+  #thank-you {
+    width: 90%;
+    height: 800px;
+  }
+  #thank-you-order {
+    display: block;
+  }
+  #thank-you button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    width: 80%;
+  }
+}

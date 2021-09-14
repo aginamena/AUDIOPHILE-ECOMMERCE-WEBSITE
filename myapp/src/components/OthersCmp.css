@@ -1,0 +1,30 @@
+.otherCmp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.otherCmp img {
+  height: 318px;
+}
+.otherCmp h5 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 1.71429px;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+.otherCmp button {
+  width: 160px;
+  height: 48px;
+  border: 0;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #d87d4a;
+  font-size: 13px;
+}
+.otherCmp button:hover {
+  background-color: #fbaf85;
+}

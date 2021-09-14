@@ -1,0 +1,37 @@
+#audioGear {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#audioGeardiv {
+  width: 445px;
+}
+#audioGeardiv h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+}
+#audioGeardiv div {
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 25px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+@media (max-width: 1005px) {
+  #audioGear {
+    flex-direction: column-reverse;
+  }
+  #audioGear img {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 500px) {
+  #audioGeardiv {
+    width: 100%;
+    text-align: center;
+  }
+}
