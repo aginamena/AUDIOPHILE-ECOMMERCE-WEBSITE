@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Audiophile-ecommerce-website/static/css/main.f4dbdbc4.chunk.css",
-    "main.js": "/Audiophile-ecommerce-website/static/js/main.70ae4619.chunk.js",
-    "main.js.map": "/Audiophile-ecommerce-website/static/js/main.70ae4619.chunk.js.map",
+    "main.js": "/Audiophile-ecommerce-website/static/js/main.d148297f.chunk.js",
+    "main.js.map": "/Audiophile-ecommerce-website/static/js/main.d148297f.chunk.js.map",
     "runtime-main.js": "/Audiophile-ecommerce-website/static/js/runtime-main.4374fbf1.js",
     "runtime-main.js.map": "/Audiophile-ecommerce-website/static/js/runtime-main.4374fbf1.js.map",
-    "static/js/2.e39f68c4.chunk.js": "/Audiophile-ecommerce-website/static/js/2.e39f68c4.chunk.js",
-    "static/js/2.e39f68c4.chunk.js.map": "/Audiophile-ecommerce-website/static/js/2.e39f68c4.chunk.js.map",
+    "static/js/2.d430eea9.chunk.js": "/Audiophile-ecommerce-website/static/js/2.d430eea9.chunk.js",
+    "static/js/2.d430eea9.chunk.js.map": "/Audiophile-ecommerce-website/static/js/2.d430eea9.chunk.js.map",
     "index.html": "/Audiophile-ecommerce-website/index.html",
     "static/css/main.f4dbdbc4.chunk.css.map": "/Audiophile-ecommerce-website/static/css/main.f4dbdbc4.chunk.css.map",
-    "static/js/2.e39f68c4.chunk.js.LICENSE.txt": "/Audiophile-ecommerce-website/static/js/2.e39f68c4.chunk.js.LICENSE.txt"
+    "static/js/2.d430eea9.chunk.js.LICENSE.txt": "/Audiophile-ecommerce-website/static/js/2.d430eea9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4374fbf1.js",
-    "static/js/2.e39f68c4.chunk.js",
+    "static/js/2.d430eea9.chunk.js",
     "static/css/main.f4dbdbc4.chunk.css",
-    "static/js/main.70ae4619.chunk.js"
+    "static/js/main.d148297f.chunk.js"
   ]
 }
