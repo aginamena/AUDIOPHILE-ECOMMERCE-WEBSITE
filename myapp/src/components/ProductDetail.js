@@ -15,6 +15,7 @@ export default function ProductDetail(props) {
             }, 0);
             window.onbeforeunload = null;
         }
+        return null;
     }
     const [storageItems, setStorageItems] = useState(localStorage.length);
     const [windowSize, setWindowSize] = useState(window.innerWidth);
